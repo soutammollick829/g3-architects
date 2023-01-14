@@ -1,0 +1,37 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+/* common style  */
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+}
+/* navication bar  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-title{
+    font-weight: 700;
+    font-size: 30px;
+    color:#131313;
+}
+span{
+    color:#FF900E;
+}
+ul li{
+    display: inline-block;
+    padding-right: 50px;
+    font-weight: 500;
+    font-size: 18px;  
+}
+ul li a{
+    text-decoration: none;
+    color:#424242;  
+}
+li a:hover{
+    color: #FF900E;
+}
+/* navication bar close  */
