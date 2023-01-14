@@ -4,8 +4,11 @@
 /* common style  */
 body{
     font-family: 'Work Sans', sans-serif;
-    background: rgba(255, 144, 14, 0.1);
     width: 100%;
+    margin: 0;
+}
+.main-heading{
+    background-color: rgba(255, 144, 14, 0.1);;
 }
 /* navication bar  */
 nav{
@@ -35,3 +38,38 @@ li a:hover{
     color: #FF900E;
 }
 /* navication bar close  */
+
+
+/* Brand New heading  */
+.artical-container{
+text-align:center;
+}
+.brand-group-title{
+    font-weight:700;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.group-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.explor-btn{
+    color: #FFFFFF;
+    width: 130px;
+    height: 45px;
+    font-weight:600;
+    font-size: 15px;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.banner-photo img{
+    width: 850px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+/* Brand New heading close  */
