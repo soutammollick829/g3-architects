@@ -71,5 +71,36 @@ text-align:center;
     height: 400px;
     margin-top: 50px;
     margin-bottom: 40px;
+    border-radius: 8px;
 }
 /* Brand New heading close  */
+.container{
+display: flex;
+gap: 50px;
+align-items: center;
+margin: 80px 50px 100px 50px;
+
+}
+.team-meeting{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+} 
+img{
+    width: 200px;
+    height: 230px;
+    border-radius: 8px;
+
+}
+.team-title{
+    font-weight: 500;
+    font-size: 35px;
+}
+#color{
+    color: #727272;
+}
+.team-description{
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272; 
+}
