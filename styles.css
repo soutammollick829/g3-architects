@@ -74,11 +74,14 @@ text-align:center;
     border-radius: 8px;
 }
 /* Brand New heading close  */
+
+/* team meeting section  */
 .container{
 display: flex;
 gap: 50px;
 align-items: center;
-margin: 80px 50px 100px 50px;
+
+margin: 100px;
 
 }
 .team-meeting{
@@ -101,6 +104,71 @@ img{
 }
 .team-description{
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     color: #727272; 
 }
+/* team meeting section close  */
+
+/* Experience description section  */
+.description-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 50px;
+    align-items:flex-end;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.description-heading{
+    font-weight: 700;
+    font-size: 35px;
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+    
+}
+#paragraph{
+    font-weight: 400;
+    font-size: 15px;
+    color: #727272;
+    margin-top: 20px; 
+}
+.box{
+    width: 450px;
+    height: 100px;
+    box-shadow:  0px 4px 30px #d6cabc;
+    border-radius: 8px;
+}
+.title{
+    font-weight: 600;
+    font-size: 17px;
+    color: #131313;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 15px;
+    color: #727272;
+    margin-top: 10px;
+    padding-left: 16px;
+ }
+.photo img{
+    width:450px;
+    height: 650px;
+} 
+.year-btn{
+    width: 150px;
+    height: 75px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px;
+    position: relative;    
+}
+#Experience{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+}
+/* Experience description section close */
